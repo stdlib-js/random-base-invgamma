@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+invgamma = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-invgamma@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-base-invgamma/tags). For example,
+
+```javascript
 invgamma = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-invgamma@v0.1.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var invgamma = require( 'path/to/vendor/umd/random-base-invgamma/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-invgamma@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-invgamma@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -413,7 +418,7 @@ var o = rand.toJSON();
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-invgamma@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-invgamma@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
