@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import invgamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-invgamma@esm/index.mjs';
+import invgamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-invgamma@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-invgamma@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-invgamma@v0.2.1-esm/index.mjs';
 ```
 
 #### invgamma( alpha, beta )
@@ -397,7 +397,7 @@ var o = rand.toJSON();
 <body>
 <script type="module">
 
-import invgamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-invgamma@esm/index.mjs';
+import invgamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-invgamma@v0.2.1-esm/index.mjs';
 
 var seed;
 var rand;
