@@ -448,6 +448,7 @@ for ( i = 0; i < 100; i++ ) {
 -   <span class="package-name">[`@stdlib/random-array/invgamma`][@stdlib/random/array/invgamma]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from an inverse gamma distribution.</span>
 -   <span class="package-name">[`@stdlib/random-iter/invgamma`][@stdlib/random/iter/invgamma]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from an inverse gamma distribution.</span>
 -   <span class="package-name">[`@stdlib/random-streams/invgamma`][@stdlib/random/streams/invgamma]</span><span class="delimiter">: </span><span class="description">create a readable stream for generating pseudorandom numbers drawn from an inverse gamma distribution.</span>
+-   <span class="package-name">[`@stdlib/random-invgamma`][@stdlib/random/invgamma]</span><span class="delimiter">: </span><span class="description">generate pseudorandom numbers drawn from an inverse gamma distribution.</span>
 
 </section>
 
@@ -536,6 +537,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/random/iter/invgamma]: https://github.com/stdlib-js/random-iter-invgamma
 
 [@stdlib/random/streams/invgamma]: https://github.com/stdlib-js/random-streams-invgamma
+
+[@stdlib/random/invgamma]: https://github.com/stdlib-js/random-invgamma
 
 <!-- </related-links> -->
 
